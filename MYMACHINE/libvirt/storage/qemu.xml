@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh pool-edit qemu
+or other application using the libvirt API.
+-->
+
+<pool type='dir'>
+  <name>qemu</name>
+  <uuid>0bcd3219-f546-4373-b245-f3da9d595146</uuid>
+  <capacity unit='bytes'>0</capacity>
+  <allocation unit='bytes'>0</allocation>
+  <available unit='bytes'>0</available>
+  <source>
+  </source>
+  <target>
+    <path>/etc/libvirt/qemu</path>
+  </target>
+</pool>
